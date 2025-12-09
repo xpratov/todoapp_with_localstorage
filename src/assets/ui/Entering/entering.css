@@ -1,0 +1,31 @@
+.entering{
+  width: 100%;
+  display: flex;
+  gap: 12px;
+
+  input{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #1D1825;
+    outline-color: #9E78CF;
+    border: 1px solid #9E78CF;
+    padding: 10px 10px;
+    color: #fff;
+  }
+
+  button{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9E78CF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  button:active{
+    opacity: 0.8;
+  }
+}
