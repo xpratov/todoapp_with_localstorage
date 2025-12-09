@@ -3,7 +3,7 @@ import Done from "./assets/ui/Done/Done";
 import Entering from "./assets/ui/Entering/Entering";
 import Taskstodo from "./assets/ui/Todo/Taskstodo";
 import "./index.css";
-import Pratov from "./assets/ui/pratov";
+import Pratov from "./assets/ui/Pratov/Pratov";
 
 type Todo = {
   id: number;
