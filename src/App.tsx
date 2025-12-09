@@ -3,6 +3,7 @@ import Done from "./assets/ui/Done/Done";
 import Entering from "./assets/ui/Entering/Entering";
 import Taskstodo from "./assets/ui/Todo/Taskstodo";
 import "./index.css";
+import Pratov from "./assets/ui/pratov";
 
 type Todo = {
   id: number;
@@ -29,11 +30,14 @@ function App() {
   }
 
   return (
+    <>
     <div id="app">
       <Entering data={todos} onData={onData}/> 
       <Taskstodo data={todos} onData={onData}/>
       <Done data={todos}/>
     </div>
+    <Pratov/>
+    </>
   )
 }
 
