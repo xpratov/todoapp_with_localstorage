@@ -1,6 +1,6 @@
-import check from "./Check.png"
-import plus from "./Plus.png";
-import trash from "./Trash.png";
+import check from "./check.png"
+import plus from "./plus.png";
+import trash from "./trash.png";
 
 export {
   check,
