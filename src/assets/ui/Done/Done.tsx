@@ -8,10 +8,7 @@ type Todo = {
 
 const Done = ({data}:{data:Todo[]}) => {
 
-  const dones = data.filter(todo => todo.completed) 
-
-  console.log(data);
-  
+  const dones = data.filter(todo => todo.completed)   
 
   return (
     <section className='done'>
