@@ -15,7 +15,7 @@ const Entering = ({ data, onData }:{data:Todo[], onData:any}) => {
     if (!handleInput.trim()) return;
     const updatedTodos:Todo[] = [
       {
-        id: data[0].id+1,
+        id: data[0]?.id+1 || 0,
         text: handleInput,
         completed: false,
       }, 
